@@ -1,7 +1,3 @@
-# Awesome Project Build with TypeORM
+# Food Recognizer
 
-Steps to run this project:
-
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+A simple app for uploading a photo and get what type of food is it.
