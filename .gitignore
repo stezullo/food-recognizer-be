@@ -4,3 +4,4 @@ node_modules/
 build/
 tmp/
 temp/
+src/config/FoodRecognizer-c6fc55fefff6.json
