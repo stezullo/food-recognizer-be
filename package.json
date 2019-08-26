@@ -1,6 +1,6 @@
 {
    "name": "food-recognizer",
-   "version": "0.0.2",
+   "version": "1.0.0",
    "description": "Food Recognizer powered by Google Cloud Vision API.",
    "devDependencies": {
       "ts-node": "3.3.0",
@@ -33,5 +33,9 @@
       "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/index.ts",
       "prod": "tsc && node ./build/app.js",
       "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run"
+   },
+   "engines": {
+      "node": "10.15.3",
+      "npm": "6.11.2"
    }
 }
