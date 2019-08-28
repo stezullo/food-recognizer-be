@@ -33,14 +33,16 @@ class AuthController {
             return;
         }
 
+        const expiresIn: string = "1d";
+
         const token = jwt.sign(
             { userId: user.id, username: user.username },
             config.jwtSecret,
-            { expiresIn: "24h" }
+            { expiresIn }
         );
 
         // Send the jwt in the response
-        res.send(token);
+        res.send({ token, expiresInDays: 1 });
     }
 
     static changePassword = async (req: Request, res: Response) => {
