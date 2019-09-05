@@ -4,9 +4,7 @@ import vision = require('@google-cloud/vision');
 
 export class RecognitionController {
     static recognition = async (req: Request, res: Response) => {
-        let currentPath = process.cwd();
-        console.log("Current directory");
-        console.log(currentPath);
+
         let file = req.file;
 
         if (!file) {

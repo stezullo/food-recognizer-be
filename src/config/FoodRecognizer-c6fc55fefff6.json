@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "peak-orbit-249011",
+  "private_key_id": "c6fc55fefff6bbee21cf545b949037997db986f4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCU1ostzIFlGTku\n8voidQKbT5GArGXeErbMSknC9E+/3hqOfZAsz5UZbC/57ukJAB2ZjEUlzCiuRdpA\nO8Rlc0n5yA/QJplvhvK53wPYuHe1j/VbmpIVX/no+kThx5kzb5P4n9DjxfJK2nFS\npyn2Bl+DCPvlYGlxCHYjnsKCv3KFCDYjpwkprEJhjVX5lVcw+am75zMuATyLk7Oj\nGSoYuepxW4rFnZF+kHOBbWMnO7wDW3tMAJHEjJXS+U9s7Jpb2H86E0JXUx9CNtGe\nneYkGawDFlgmkMoiv2iJrGQLwYdE/zrFgyvXuqRGBjh/xQ4ox0BzQeq2I1a/+G1R\nQVPFGliRAgMBAAECggEAGruvS3ZaPmmppPZk+afpJDLGOGWetWTImwhz17Wwlk6D\nGBlS+k19ow+UzXA9QI3aAzCX4epZ2zV2NkfV5n/u51OpDXLFZ+wF8F8vbm9xpvWY\ntQ+eEgNHXLKJCUGj0YKGwicYarTs6Ed0h8s5JPSvlpZYQjKPNct2hr7XAot2+xBA\nhI6RU3XxDlyLa+QO7sDwNiDDHP0uCEFU9reJR33UivFCuaHRAjcxjQKOXDhN2You\nXUJIr5YRr1pilwSCqbSNLZ3eTKzASR5OlimgRYiAuOAsshONFgEUpH3ByGXr/qeZ\n5D3gwCuIbXDTXbBml6b+w4LZryblcJE7I9n5wrDhLQKBgQDPHt8kCL4GZ3+V/Luo\n+O5wc5lFumnyUpJUko1C4ZrjMYf+6TRaJZNjx9KTPun427yZJ0GoVMVDVG6ETvn7\nqncOHbijIBxYuB9LkUoAxX2yvMHHoMS44WipAaM+7PkZqqvRopiuUqogGeOndsBB\nuv6WZegw3P8GPuk1HppQ5t6evQKBgQC39ozoCWu1XI2fGGvxyGondAHkQfCIMHYd\nYSTr6CWReRqOFkgBDD8kXscZYHTnyX1W3adxDzOVNSsssOmVzHqy+d8maRulWXpW\nEkgX/sbPwVPtRwWad4wdRMsbzELxHFlYy9emv1DHe5R94AB4VBvJXRIE1b3zVkAc\nF6OT+jQYZQKBgQCWg+7Q9vFxIgGb8+BEOTK90aQPAhtAGDVy9FVnxx+R/0q/OqXq\n5OepWWtzygKp8LWr7tVOCNyZw1/VErej5gtC3OJy2UEAUD2d4uWOjfZ8z6Na+UA8\nwsIWH7SMZBXaSyc13x1pgXVUgrvn1Op+We/tR/1mlRNXbJx5F9Y4+K3LWQKBgQCp\ntM6kOByewHT9caAS+lnDb6dXFOV6HYq466cN4ajWnKu8rB1cqhmNyclORcdTFHOG\nMRCIogdp/BSKM+IoiOwgM5aCbrBMR1EuGctcJ3LssWJlIAGxT9t4HMBqMnMGzqo1\n2kZk01UH0Z9Yx85nMuA3UJ6Qy0ViOA0IXV5P4p8waQKBgGu5FoQVv0sKNJ6rjYZA\neSUNW+D/jTasA3p3Z/z7AZSL+pCxejqu340mhkT3ZIu+QmLfDFS2hoino1AvK/Nw\nbwI9idMyB1vLah3PqUZhPaV7Kn2LmK3ZO/3Spvwmqvy0OP79TBoZalEz5SCzH7xJ\n8mxmXt5MfLZSoTshxGgNE/qe\n-----END PRIVATE KEY-----\n",
+  "client_email": "food-recognizer-admin@peak-orbit-249011.iam.gserviceaccount.com",
+  "client_id": "112121954286797755210",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/food-recognizer-admin%40peak-orbit-249011.iam.gserviceaccount.com"
+}
