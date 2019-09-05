@@ -25,7 +25,7 @@ createConnection()
 
 
         // start express server
-        app.listen(SERVER_PORT, () => {
+        app.listen(process.env.PORT || SERVER_PORT, () => {
             console.log(`Food Recognizer's server has started on port ${SERVER_PORT}!`);
         });
 
