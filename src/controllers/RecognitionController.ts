@@ -5,6 +5,7 @@ import vision = require('@google-cloud/vision');
 export class RecognitionController {
     static recognition = async (req: Request, res: Response) => {
 
+        // Test
         let file = req.file;
 
         if (!file) {
