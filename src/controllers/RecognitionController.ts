@@ -1,12 +1,15 @@
 import { Request, Response } from "express";
 
-const vision = require('@google-cloud/vision')({
-    projectId: 'peak-orbit-249011',
-    credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
-});
+import vision = require('@google-cloud/vision');
 
 export class RecognitionController {
     static recognition = async (req: Request, res: Response) => {
+
+        let keysVar = process.env['GOOGLE_APPLICATION_CREDENTIALS'];
+        console.log(JSON.parse(keysVar));
+
+
+
         let file = req.file;
 
         if (!file) {
