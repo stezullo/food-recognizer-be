@@ -5,13 +5,14 @@ import vision = require('@google-cloud/vision');
 export class RecognitionController {
     static recognition = async (req: Request, res: Response) => {
 
-        let envVar = process.env['GOOGLE_APPLICATION_CREDENTIALS'];
-        let googleEnv = JSON.parse(JSON.stringify(envVar));
+        let envVar = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+        let googleEnv = JSON.parse(envVar);
         console.log("***************_______________**************");
         console.log();
         console.log(googleEnv);
         console.log();
         console.log("***************_______________**************");
+
         let file = req.file;
 
         if (!file) {
